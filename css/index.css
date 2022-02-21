@@ -1,0 +1,254 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(22, 41, 153);
+    padding: 0 8px;
+    box-shadow: 0 0.26rem 0 rgba(0, 0, 0, 0.521);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    padding: 0 0.5rem;
+    margin: auto;
+}
+
+.nav__logo-container {
+    max-width: 60px;
+    display: flex;
+    margin: 0;
+}
+
+.logo-container__logo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav__menu-list-container {
+    display: flex;
+    gap: 6px;
+    padding: 0;
+}
+
+.menu-list__list-item {
+    font-size: 0.9rem;
+    font-weight: 380;
+    list-style: none;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(9, 211, 127, 0.767);
+    transition: all 0.5s;
+}
+
+.menu-list__list-item:hover {
+    background-color: rgba(48, 235, 241, 0.822);
+    transition: all 0.5s;
+}
+
+.list-item__link-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.article {
+    display: flex;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.article__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.main__image-container {
+    max-width: 500px;
+    display: flex;
+    margin: 0;
+}
+
+.image-container__image {
+    width: 100%;
+}
+
+.main__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.presentation__title {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 350;
+}
+
+.presentation__description {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.link-button-cita__button-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(22, 41, 153);
+    color: white;
+    transition: all 0.5s;
+}
+
+.link-button-cita__button-link:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.speciality {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.speciality__image-container {
+    max-width: 500px;
+    margin: 16px 0;
+}
+
+.image-container__image {
+    width: 100%;
+}
+
+.branch-speciality__title,
+.contacto___title {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.speciality__brach-speciality-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.branch-speciality__list-container {
+    padding: 0;
+}
+
+.list__item-speciality {
+    text-align: center;
+    letter-spacing: 2px;
+    list-style: none;
+    background-color: rgb(22, 41, 153);
+    color: white;
+    padding: 6px;
+    margin: 20px 0;
+    border-radius: 15px;
+    transform: all 0.5s;
+}
+
+.list__item-speciality:hover {
+    transform: scale(1.1);
+    transform: all 0.5s;
+}
+
+.contacto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto___title {
+    font-size: 2rem;
+}
+
+.contacto___title::before {
+    content: "✍";
+}
+
+.contacto___title::after {
+    content: "✍";
+}
+
+.contacto__form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid rgb(22, 41, 153);
+}
+
+.form__button {
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(22, 41, 153);
+    transition: all 0.5s;
+}
+
+.form__button:hover {
+    background-color: rgb(233, 20, 102);
+    transition: all 0.5s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px
+}
+
+.social-networks__link-icon-container {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+.social-networks__link-icon-container>i {
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+.social-networks__link-icon-container>i:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
+.footer__credits {
+    text-align: center;
+    font-weight: 300;
+}
